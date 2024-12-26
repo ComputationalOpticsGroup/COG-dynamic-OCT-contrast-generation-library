@@ -9,7 +9,7 @@ Available DOCT contrasts
 https://doi.org/10.48550/arXiv.2412.09351)]
 
 ### Functions to compute each algorithm
-- aLIV, Swiftness : vliv_postprocessing () (included in "COG-DOCT/Program/VLIV" folder)
+- aLIV, Swiftness : vliv_postprocessing () (included in [postprocess_vliv.py](https://github.com/ComputationalOpticsGroup/COG-DOCT/blob/main/Program/VLIV/postprocess_vliv.py))
 
 Manuals
 ------------------------
