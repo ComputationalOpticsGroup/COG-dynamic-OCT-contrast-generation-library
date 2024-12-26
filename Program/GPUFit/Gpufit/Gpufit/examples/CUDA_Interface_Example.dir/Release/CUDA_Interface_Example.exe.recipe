@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\Release\Gpufit.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\Release\CUDA_Interface_Example.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

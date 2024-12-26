@@ -1,0 +1,30 @@
+^F:\DROPBOX\JUPYTER\POSTPROCESSING_BSA\VLIV_TRIAL\GPUFIT\CMAKEFILES\1D79A01FFE65BAB1451A6B8344E4E736\PYTHON_PACKAGE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E remove_directory F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Release/pyGpufit
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Release/pyGpufit
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit-1.2.0/Gpufit/python/README.txt F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit-1.2.0/Gpufit/python/setup.py F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit-1.2.0/Gpufit/python/setup.cfg F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Release/pyGpufit
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Release/pyGpufit/pygpufit
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit-1.2.0/Gpufit/python/pygpufit/__init__.py F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit-1.2.0/Gpufit/python/pygpufit/gpufit.py F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit-1.2.0/Gpufit/python/pygpufit/version.py F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Release/pyGpufit/pygpufit
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_if_different F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Release/Gpufit.dll F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Release/pyGpufit/pygpufit
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\DROPBOX\JUPYTER\POSTPROCESSING_BSA\VLIV_TRIAL\GPUFIT-1.2.0\GPUFIT\PYTHON\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit-1.2.0 -BF:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit --check-stamp-file F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Gpufit/python/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,26 @@
+^F:\DROPBOX\JUPYTER\POSTPROCESSING_BSA\VLIV_TRIAL\GPUFIT-1.2.0\GPUFIT\EXAMPLES\CUDA_INTERFACE_EXAMPLE.CU
+setlocal
+cd F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\Gpufit\examples\CMakeFiles\CUDA_Interface_Example.dir
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Gpufit/examples/CMakeFiles/CUDA_Interface_Example.dir//Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools/MSVC/14.33.31629/bin/Hostx64/x64" -D build_configuration:STRING=Release -D generated_file:STRING=F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Gpufit/examples/CMakeFiles/CUDA_Interface_Example.dir//Release/CUDA_Interface_Example_generated_CUDA_Interface_Example.cu.obj -D generated_cubin_file:STRING=F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Gpufit/examples/CMakeFiles/CUDA_Interface_Example.dir//Release/CUDA_Interface_Example_generated_CUDA_Interface_Example.cu.obj.cubin.txt -P F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Gpufit/examples/CMakeFiles/CUDA_Interface_Example.dir//CUDA_Interface_Example_generated_CUDA_Interface_Example.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\DROPBOX\JUPYTER\POSTPROCESSING_BSA\VLIV_TRIAL\GPUFIT-1.2.0\GPUFIT\EXAMPLES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit-1.2.0 -BF:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit --check-stamp-file F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Gpufit/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

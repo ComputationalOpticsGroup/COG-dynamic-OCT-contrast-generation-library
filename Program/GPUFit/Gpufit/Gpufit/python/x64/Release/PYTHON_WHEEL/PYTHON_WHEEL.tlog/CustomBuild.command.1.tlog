@@ -1,0 +1,22 @@
+^F:\DROPBOX\JUPYTER\POSTPROCESSING_BSA\VLIV_TRIAL\GPUFIT\CMAKEFILES\1D79A01FFE65BAB1451A6B8344E4E736\PYTHON_WHEEL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E chdir F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Release/pyGpufit C:/Users/COG/AppData/Local/Programs/Python/Python37/python.exe setup.py clean --all
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E chdir F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Release/pyGpufit C:/Users/COG/AppData/Local/Programs/Python/Python37/python.exe setup.py bdist_wheel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\DROPBOX\JUPYTER\POSTPROCESSING_BSA\VLIV_TRIAL\GPUFIT-1.2.0\GPUFIT\PYTHON\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit-1.2.0 -BF:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit --check-stamp-file F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Gpufit/python/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

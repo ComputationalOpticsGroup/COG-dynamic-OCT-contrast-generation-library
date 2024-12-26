@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.23/Modules/FindCUDA/run_nvcc.cmake
+F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit-1.2.0/Gpufit/examples/CMakeLists.txt
+F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Gpufit/examples/CMakeFiles/CUDA_Interface_Example.dir/CUDA_Interface_Example_generated_CUDA_Interface_Example.cu.obj.cmake.pre-gen
+F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Gpufit/examples/CMakeFiles/CUDA_Interface_Example.dir/CUDA_Interface_Example_generated_CUDA_Interface_Example.cu.obj.depend

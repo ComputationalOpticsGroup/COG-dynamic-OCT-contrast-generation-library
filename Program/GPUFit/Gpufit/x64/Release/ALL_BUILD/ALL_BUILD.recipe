@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\Release\Gpufit.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\Release\CUDA_Interface_Example.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\Release\Cpufit.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\Release\Gauss_Fit_2D_Example.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\Release\GpufitJNI.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\Release\Gpufit_Cpufit_Nvidia_Profiler_Test.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\Release\Gpufit_Cpufit_Performance_Comparison.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\x64\Release\JAVA_PACKAGE</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\Release\Linear_Regression_Example.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\Release\Simple_Example.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\x64\Release\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
