@@ -1,5 +1,7 @@
 Instration
 ============
+COG-DOCT package can be found from [Releases](https://github.com/ComputationalOpticsGroup/COG-DOCT/releases). 
+
 COG-DOCT was implemented in Python 3. Please install Python environment first (e.g., [Anaconda navigator](https://www.anaconda.com/download)). 
 
 Library
