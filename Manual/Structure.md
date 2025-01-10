@@ -2,13 +2,14 @@ Overview
 ==========
 Flow in vliv_postprocessing ().
 ----------------------------------
+![computationFlow](figures/computationFlow_aliv-swiftness.jpg)
 
 1. Load 3D volume of time-sequential OCT intensity.
 	- octFrames = tifffile.imread(path_OCT)
   
 The following processes (2-7) are performed every B-scan location.  
 
-2. Find and extract time-sequential frames at perticular B-scan location from the entire data.
+2. Find and extract time-sequential frames at particular B-scan location from the entire data.
 	- makeSparseDataBSA () or makeSparseDataFromRasterRepeat ()
 
 3. (Optional; If motionCorrection == True) Registration-based motion-correction is applied to remove bulk motions.
