@@ -1,6 +1,6 @@
 # COG-DOCT
 COG-DOCT is for post-processing OCT data with dynamic OCT (DOCT) algorithms. The programs ebables to generate gray-scale and pseudo-color DOCT images from a time-sequential linear-scale OCT intensity image.
-![topPicture](Manual\figures\topPicture.jpg)
+![topPicture](Manual/figures/topPicture.jpg)
 
 Available DOCT contrasts
 ---------------------------
