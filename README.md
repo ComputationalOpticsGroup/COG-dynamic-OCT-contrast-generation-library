@@ -17,3 +17,12 @@ Manuals
 - Usage manual can be found [here](Manual/Usage.md).
 - Installation procedure can be found [here](Manual/Instration.md).
 - Computation flow in function has been explained [here](Manual/Structure.md).
+
+License
+-----------------------
+This project is licensed under either of
+- (1) GNU LGPLv3 without our permission
+- (2) Any license as long as our permission is granted
+
+at your option.
+
