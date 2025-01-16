@@ -10,7 +10,7 @@ Available DOCT contrasts
 https://doi.org/10.48550/arXiv.2412.09351)]
 
 ### Functions to compute each algorithm
-- aLIV, Swiftness : vliv_postprocessing () (included in [postprocess_vliv.py](https://github.com/ComputationalOpticsGroup/COG-DOCT/blob/main/Program/VLIV/postprocess_vliv.py))
+- aLIV, Swiftness : vliv_postprocessing () (included in [postprocess_vliv.py](Program\VLIV\postprocess_vliv.py))
 
 Manuals
 ------------------------
@@ -21,8 +21,7 @@ Manuals
 License
 -----------------------
 This project is licensed under either of
-- (1) GNU LGPLv3 without our permission
+- (1) [GNU LGPLv3](LICENSE.md) without our permission
 - (2) Any license as long as our permission is granted
 
 at your option.
-
