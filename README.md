@@ -22,6 +22,6 @@ License
 -----------------------
 This project is licensed under either of
 - (1) [GNU LGPLv3](LICENSE.md) without our permission
-- (2) Any license as long as our permission is granted
+- (2) Any license as far as we agree, which includes commertial licenses. 
 
-at your option.
+Please contact us (email: yoshiaki.yasuno@cog-lab.org), when you want to use this project under any license except GNU LGPLv3. 
