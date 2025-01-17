@@ -1,15 +1,14 @@
-Usage of COG-DOCT
-==================
+Usage of COG-dynamic-OCT-contrast-generation-library (COG DOCT-CG library)
+====================================================
 
-About this program
+About COG DOCT-CG library
 ------------------
-This program is for post-processing OCT data with dynamic OCT (DOCT) algorithms. Namely, this program generates gray-scale and pseudo-color DOCT images from a time-sequential linear-scale OCT intensity image.
+The COG DOCT-CG library is a Python library which provides the classes and functions to compute several dynamic optical coherence tomography (DOCT) contrasts from a time-sequence of linear-scale OCT intensity images.
 
 ### Available DOCT contrasts
 - authentic LIV (aLIV)
 - Swiftness
-- Related paper (aLIV, Swiftness): Morishita2024arXiv [[URL](
-https://doi.org/10.48550/arXiv.2412.09351)]
+- The detailed methods of aLIV and Swiftness can be found in [Morishita et al., arXiv(2024)](https://doi.org/10.48550/arXiv.2412.09351).
 
 ### Functions to compute each algorithm
 - aLIV, Swiftness : vliv_postprocessing () (included in "COG-DOCT/Program/VLIV" folder)
