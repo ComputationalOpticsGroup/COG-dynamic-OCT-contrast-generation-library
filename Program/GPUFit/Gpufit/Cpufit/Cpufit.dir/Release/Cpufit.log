@@ -1,8 +1,0 @@
-﻿  cpufit.cpp
-  info.cpp
-  interface.cpp
-  lm_fit.cpp
-  lm_fit_cpp.cpp
-  Generating Code...
-     Creating library F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Cpufit/Release/Cpufit.lib and object F:/Dropbox/Jupyter/PostProcessing_BSA/VLIV_Trial/Gpufit/Cpufit/Release/Cpufit.exp
-  Cpufit.vcxproj -> F:\Dropbox\Jupyter\PostProcessing_BSA\VLIV_Trial\Gpufit\Release\Cpufit.dll
