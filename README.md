@@ -23,7 +23,7 @@ Available DOCT contrasts
 Manuals
 ------------------------
 - Usage manual can be found [here](Manual/Usage.md).
-- Installation procedure can be found [here](Manual/Instration.md).
+- Installation procedure can be found [here](Manual/Installation.md).
 - Computation flow in function has been explained [here](Manual/Structure.md).
 
 License
