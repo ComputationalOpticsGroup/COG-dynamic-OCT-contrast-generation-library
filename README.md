@@ -18,7 +18,7 @@ Available DOCT contrasts
 - The details of LIV and OCDS can be found at [El-Sadek et al., Biomedical Optics Express (2020)](https://doi.org/10.1364/BOE.404336).
 
 ### Functions to compute each algorithm
-- aLIV, Swiftness : vliv_postprocessing () (included in [postprocess_vliv.py](Program\VLIV\postprocess_vliv.py))
+- aLIV, Swiftness : vliv_postprocessing () (included in [postprocess_vliv.py](Program/VLIV/postprocess_vliv.py))
 
 Manuals
 ------------------------
