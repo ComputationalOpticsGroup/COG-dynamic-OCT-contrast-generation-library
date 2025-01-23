@@ -29,7 +29,7 @@ Manuals
 License
 -----------------------
 This library is licensed under either of the following options.
-1. [GNU lesser general public license version 3 (LGPLv3)](LICENSE.md).
+1. [GNU lesser general public license version 3 (LGPLv3)](LICENSE_GnuLGPLv3.md).
 2. Any licenses except for GNU LGPLv3 as far as the authors and the uses agree for it. It may include business licenses, closed-source licenses, and others. 
  
 Option 1 (GNU LGPLv3) can be selected without notifying the authors. (However, it is recommended to cite this web-site and the proper reference papers listed in "available DOCT contrasts" sections when you publish research papers using this library.)
